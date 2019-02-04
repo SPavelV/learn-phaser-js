@@ -74,6 +74,10 @@ export const backgroundColor = '#000000';
  *    - `impact`: ImpactJS Physics Engine.
  */
 export const physics = {
+  default: 'arcade',
+  arcade: {
+    gravity: {y: 200}
+  }
   /**
    *  Phaser Arcade Physics 2 parameters.
    *
@@ -101,7 +105,7 @@ export const physics = {
   /**
    *  Enable a physics engine by default on all game scenes.
    */
-  default: false
+  // default: false
 };
 
 /**
